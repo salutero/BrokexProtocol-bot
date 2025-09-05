@@ -24,7 +24,7 @@ if QT_AVAILABLE:
             self.signals.new_log.connect(self.append_message)
  
         def write(self, message: str):
-            clean_message = clean_brackets(message)
+            clean_message = clean_brackets(message) 
             
             # Define colors based on logging level
             if "ERROR" in message:
