@@ -12,7 +12,7 @@ from data.config import MIN_PROXY_SCORE, CHECK_POINTS, STOP_ACCOUNTS_WHEN_SITE_I
 try:
     from data.config import SHOW_LOGS_RARELY
 except ImportError:
-    SHOW_LOGS_RARELY = ""
+    SHOW_LOGS_RARELY = "" 
 
 from .grass_sdk.extension import GrassWs
 from .grass_sdk.website import GrassRest
